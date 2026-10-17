@@ -1,0 +1,11 @@
+numpy
+pandas
+pyarrow
+scipy
+scikit-learn
+statsmodels
+xgboost
+wfdb
+matplotlib
+requests
+urllib3
