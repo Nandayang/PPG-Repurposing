@@ -1,10 +1,10 @@
 # ppg-cirrhosis
 
-Analysis code for **"Repurposing routine pulse oximetry waveforms for cirrhosis detection across health systems"** (Nan et al., 2026).
+Analysis code for **"Repurposing routine pulse oximetry waveforms for cirrhosis detection across health systems"**.
 
 The study tests whether the photoplethysmography (PPG) waveform recorded by routine pulse oximeters carries information on cirrhosis, using intensive care (MIMIC-III-Ext-PPG) and emergency department (MC-MED) recordings. Each 30-s window is folded into a fixed-time beat matrix, an encoder is pretrained by masked reconstruction with masks defined on the original time axis, and the model is fine-tuned to separate patients with cirrhosis from age- and sex-matched controls, with internal cross-validation and frozen cross-system evaluation.
 
-This repository contains only code. It contains no data, no patient-level outputs and no model weights.
+The code will be made publicly available upon publication.
 
 ## Data access
 
